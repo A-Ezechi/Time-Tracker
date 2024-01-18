@@ -34,36 +34,45 @@ body{
     flex-direction: column;
     height: 57vh;
     width: 15vw;
-    border: 1px solid purple;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 92, 0.894);
 }
 
 .inner-profile-container{
-    border: 1px solid gold;
+    background-color: rgb(56, 56, 204);
     border-radius: 20px;
 }
 
 .profile-image{
     height: 15vh;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 20px;
     margin-bottom: 90px;
 }
 
 .report-title,.name{
     margin-left: 20px;
+    
 }
 
 .name{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    color: white;
 }
 
 .timeframes{
     display: flex;
     flex-direction: column;
-    height: 20vh;
+    height: 17vh;
     align-items: start;
     justify-content: end;
     gap: 1rem;
-    border: 1px solid blue;
+}
+
+a{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.414);
 }
 
