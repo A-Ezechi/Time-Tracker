@@ -1,0 +1,69 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER ALIGNMENT */
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* OUTER-CONTAINER */
+
+.outer-container{
+    border: 1px solid black;
+    width: 60vw;
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* PROFILE CONTAINER */
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    height: 57vh;
+    width: 15vw;
+    border: 1px solid purple;
+}
+
+.inner-profile-container{
+    border: 1px solid gold;
+    border-radius: 20px;
+}
+
+.profile-image{
+    height: 15vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+
+.report-title,.name{
+    margin-left: 20px;
+}
+
+.name{
+    margin-bottom: 50px;
+}
+
+.timeframes{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    align-items: start;
+    justify-content: end;
+    gap: 1rem;
+    border: 1px solid blue;
+}
+
