@@ -174,13 +174,17 @@ p{
 
 /* ANCHORS */
 
-a{
+button{
     margin-left: 20px;
     margin-bottom: 15px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.414);
+    background: none;
+    border: none;
+    font-size: medium;
 }
 
-a:hover{
+button:hover{
     color: white;
+    cursor: pointer;
 }
